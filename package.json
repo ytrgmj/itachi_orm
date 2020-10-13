@@ -1,0 +1,43 @@
+{
+    "name": "@dt/itachi_orm",
+    "version": "1.0.0",
+    "description": "orm",
+    "main": "dist/orm.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint src --ext .ts",
+        "lint:fix": "eslint --fix src --ext .ts",
+        "start": "tsc && node dist/index.js",
+        "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+        "product": "node dist/index.js",
+        "clean": "rm -rf \"./dist\" \"./coverage\"",
+        "test": "jest --coverage"
+    },
+    "keywords": [
+        "orm"
+    ],
+    "author": "Hou Kai <houkai93@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^24.9.0",
+        "@types/node": "^13.5.0",
+        "@typescript-eslint/eslint-plugin": "^2.15.0",
+        "@typescript-eslint/parser": "^2.15.0",
+        "eslint": "^6.8.0",
+        "eslint-config-standard-with-typescript": "^11.0.1",
+        "eslint-plugin-import": "^2.20.0",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "jest": "^24.9.0",
+        "nodemon": "^2.0.2",
+        "ts-jest": "^24.3.0",
+        "ts-node": "^8.6.1",
+        "typescript": "^3.7.5",
+        "@types/lodash": "^4.14.149"
+    },
+    "dependencies": {
+        "@dt/itachi_core": "1.0.0",
+        "lodash": "^4.17.15"
+    }
+}
