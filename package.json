@@ -1,5 +1,5 @@
 {
-    "name": "@dt/itachi_orm",
+    "name": "itachi_orm",
     "version": "1.0.0",
     "description": "orm",
     "main": "dist/orm.js",
