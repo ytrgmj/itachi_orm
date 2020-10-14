@@ -1,6 +1,6 @@
 import ArrayCdt from '../ArrayCdt'
 import Sql from '../../../sql/Sql'
-import {JsonUtil} from '@dt/itachi_util'
+import {JsonUtil} from 'itachi_util'
 export default class AndCdt extends ArrayCdt   {
     toSql(): Sql {
         return this.toSqlStr('and');

@@ -1,5 +1,5 @@
 import Inquiry from './Inquiry'
-import {ArrayUtil, DateUtil} from '@dt/itachi_core'
+import {ArrayUtil, DateUtil} from 'itachi_core'
 
 export default class KeysInquiry extends Inquiry{
     acqColKeys(){

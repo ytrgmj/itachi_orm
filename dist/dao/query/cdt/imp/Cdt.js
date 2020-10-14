@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * 查询条件，
  * 支持sql 、monggo、es
  */
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 const sql_1 = require("../../../sql");
 const BaseCdt_1 = __importDefault(require("../BaseCdt"));
 class Cdt extends BaseCdt_1.default {

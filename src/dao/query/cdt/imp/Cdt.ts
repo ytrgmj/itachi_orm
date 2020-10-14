@@ -2,7 +2,7 @@
  * 查询条件，
  * 支持sql 、monggo、es
  */
-import {OperatorFac} from '@dt/itachi_core'
+import {OperatorFac} from 'itachi_core'
 import { Sql, ColSql, ValSql } from '../../../sql'
 import BaseCdt from '../BaseCdt'
 

@@ -75,7 +75,7 @@ export { default as OrderItem } from './dao/query/OrderItem'
 export { default as BasePoolFac } from './pool/BasePoolFac'
 
 // core
-export { ConfigFac } from '@dt/itachi_core' // 为了保持 ConfigFac init 和 get 时的版本一致性
+export { ConfigFac } from 'itachi_core' // 为了保持 ConfigFac init 和 get 时的版本一致性
 
 export { BaseOption, PoolOptions } from './pool/poolOptions'
 

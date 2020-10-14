@@ -2,7 +2,7 @@ import Query from './query/Query';
 import IExecutor from './executor/IExecutor';
 import Builder from './builder/Builder';
 import DaoOpt from './opt/DaoOpt';
-import { Context } from '@dt/itachi_core';
+import { Context } from 'itachi_core';
 import { onlyArrayIntface, AnyObject, onlyDataInterface } from '../interface';
 export default abstract class Dao {
     protected _opt: DaoOpt;

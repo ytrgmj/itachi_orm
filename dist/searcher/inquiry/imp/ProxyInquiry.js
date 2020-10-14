@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const Inquiry_1 = __importDefault(require("./Inquiry"));
 const orm_1 = require("../../../orm");
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 class ProxyInquiry extends Inquiry_1.default {
     couldSaveAll() {
         return false;

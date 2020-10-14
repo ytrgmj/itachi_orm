@@ -1,6 +1,6 @@
 import Inquiry from "./Inquiry";
 import { Searcher, Query } from "../../../orm";
-import { ArrayUtil } from "@dt/itachi_core";
+import { ArrayUtil } from "itachi_core";
 
 export default class ProxyInquiry extends Inquiry{
     couldSaveAll () {

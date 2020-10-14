@@ -279,4 +279,4 @@ class BaseInquiry {
 }
 exports.default = BaseInquiry;
 const Query_1 = __importDefault(require("../../dao/query/Query"));
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");

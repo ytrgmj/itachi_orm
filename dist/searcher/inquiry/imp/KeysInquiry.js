@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Inquiry_1 = __importDefault(require("./Inquiry"));
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 class KeysInquiry extends Inquiry_1.default {
     acqColKeys() {
         return this.get('keys');

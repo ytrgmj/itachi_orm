@@ -1,4 +1,4 @@
-import { Context } from '@dt/itachi_util';
+import { Context } from 'itachi_util';
 export default abstract class Searcher {
     protected _map: {};
     protected _context: Context;

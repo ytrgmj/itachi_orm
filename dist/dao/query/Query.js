@@ -438,4 +438,4 @@ const OrCdt_1 = __importDefault(require("./cdt/imp/OrCdt"));
 const IsNullCdt_1 = __importDefault(require("./cdt/imp/IsNullCdt"));
 const IsNotNullCdt_1 = __importDefault(require("./cdt/imp/IsNotNullCdt"));
 const Col_1 = __importDefault(require("../col/Col"));
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");

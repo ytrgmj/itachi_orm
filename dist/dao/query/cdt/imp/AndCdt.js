@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const ArrayCdt_1 = __importDefault(require("../ArrayCdt"));
-const itachi_util_1 = require("@dt/itachi_util");
+const itachi_util_1 = require("itachi_util");
 class AndCdt extends ArrayCdt_1.default {
     toSql() {
         return this.toSqlStr('and');

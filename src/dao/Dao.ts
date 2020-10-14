@@ -4,7 +4,7 @@ import Builder from './builder/Builder';
 import DaoOpt from './opt/DaoOpt';
 
 import _ from 'lodash'
-import { BeanUtil, ArrayUtil,Context } from '@dt/itachi_core'
+import { BeanUtil, ArrayUtil,Context } from 'itachi_core'
 import { onlyArrayIntface, AnyObject, onlyDataInterface } from '../interface'
 
 export default abstract class Dao {

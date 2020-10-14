@@ -7,7 +7,7 @@
 	sum(xx) as yy,
 	distinct yy
 */
-import {StrUtil,Formula,FormulaParser,JsonUtil} from '@dt/itachi_core' 
+import {StrUtil,Formula,FormulaParser,JsonUtil} from 'itachi_core' 
 
 var havingOpers = [
 	'>=',

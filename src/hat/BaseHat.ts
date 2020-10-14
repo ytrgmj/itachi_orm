@@ -2,7 +2,7 @@
 /**
  * 帽子的父类
  */
-import {Context} from '@dt/itachi_core'
+import {Context} from 'itachi_core'
 
 export default abstract class BaseHat{
     protected _opt:any;

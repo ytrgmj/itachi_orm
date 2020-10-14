@@ -1,2 +1,2 @@
-npm link @dt/itachi_core
-npm link @dt/itachi_util
+npm link  itachi_core
+npm link  itachi_util

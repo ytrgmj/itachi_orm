@@ -7,7 +7,7 @@
     sum(xx) as yy,
     distinct yy
 */
-import { Formula } from '@dt/itachi_core';
+import { Formula } from 'itachi_core';
 export default class Col {
     private _colName;
     private _name;

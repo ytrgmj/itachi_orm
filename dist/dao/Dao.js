@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Query_1 = __importDefault(require("./query/Query"));
 const DaoOpt_1 = __importDefault(require("./opt/DaoOpt"));
 const lodash_1 = __importDefault(require("lodash"));
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 class Dao {
     constructor(opt) {
         this._opt = new DaoOpt_1.default(opt);

@@ -105,7 +105,7 @@ export default abstract class BaseCache{
   
 }
 
-import {Context,ArrayUtil} from '@dt/itachi_util'
+import {Context,ArrayUtil} from 'itachi_util'
 import BaseInquiry from '../BaseInquiry';
 
 

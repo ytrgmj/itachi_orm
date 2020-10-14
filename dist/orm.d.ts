@@ -34,7 +34,7 @@ export { default as Query } from './dao/query/Query';
 export { default as JoinTable } from './dao/query/JoinTable';
 export { default as OrderItem } from './dao/query/OrderItem';
 export { default as BasePoolFac } from './pool/BasePoolFac';
-export { ConfigFac } from '@dt/itachi_core';
+export { ConfigFac } from 'itachi_core';
 export { BaseOption, PoolOptions } from './pool/poolOptions';
 export * from './dao/query/cdt/imp';
 export * from './dao/builder/imp/sql';

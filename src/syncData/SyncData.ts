@@ -1,5 +1,5 @@
 
-import {BeanUtil, ArrayUtil, Context} from '@dt/itachi_core'
+import {BeanUtil, ArrayUtil, Context} from 'itachi_core'
 import { Dao ,Query, BaseCdt} from '../orm';
 
 

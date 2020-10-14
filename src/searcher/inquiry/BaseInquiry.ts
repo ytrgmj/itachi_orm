@@ -310,7 +310,8 @@ export default abstract class BaseInquiry{
 
 import Query from "../../dao/query/Query";
 
-import {ArrayUtil} from "@dt/itachi_core";
-import { Context } from "@dt/itachi_util";import BaseCache from "./cache/BaseCache";
+import {ArrayUtil} from "itachi_core";
+import { Context } from "itachi_util";
+import BaseCache from "./cache/BaseCache";
 import { Dao } from "../../orm";
 

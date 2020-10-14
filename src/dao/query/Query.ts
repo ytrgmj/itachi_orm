@@ -470,5 +470,5 @@ import OrCdt from './cdt/imp/OrCdt'
 import IsNullCdt from './cdt/imp/IsNullCdt'
 import IsNotNullCdt from './cdt/imp/IsNotNullCdt'
 import Col from '../col/Col';
-import { ArrayUtil } from '@dt/itachi_core';
+import { ArrayUtil } from 'itachi_core';
 

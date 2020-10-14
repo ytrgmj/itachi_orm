@@ -1,4 +1,4 @@
-import { Context } from '@dt/itachi_core';
+import { Context } from 'itachi_core';
 import { Dao, Query } from '../orm';
 interface SyncDataOpt {
     context: Context;

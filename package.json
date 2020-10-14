@@ -1,6 +1,6 @@
 {
     "name": "itachi_orm",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "orm",
     "main": "dist/orm.js",
     "scripts": {
@@ -37,7 +37,7 @@
         "@types/lodash": "^4.14.149"
     },
     "dependencies": {
-        "@dt/itachi_core": "1.0.0",
+        "itachi_core": "1.0.2",
         "lodash": "^4.17.15"
     }
 }

@@ -1,4 +1,4 @@
-import {JsonUtil} from '@dt/itachi_util'
+import {JsonUtil} from 'itachi_util'
 
 import ArrayCdt from '../ArrayCdt'
 import Sql from '../../../sql/Sql'

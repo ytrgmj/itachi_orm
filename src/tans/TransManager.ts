@@ -1,4 +1,4 @@
-import { Bean ,Context} from "@dt/itachi_core";
+import { Bean ,Context} from "itachi_core";
 
 export default class TransManager {
     private _context:Context;

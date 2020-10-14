@@ -80,6 +80,6 @@ export default abstract class BaseInquiry {
     removeCache(list: any): Promise<void>;
     one(params: any): Promise<any>;
 }
-import { Context } from "@dt/itachi_util";
+import { Context } from "itachi_util";
 import BaseCache from "./cache/BaseCache";
 import { Dao } from "../../orm";

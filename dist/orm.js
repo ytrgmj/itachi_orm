@@ -88,7 +88,7 @@ Object.defineProperty(exports, "OrderItem", { enumerable: true, get: function ()
 var BasePoolFac_1 = require("./pool/BasePoolFac");
 Object.defineProperty(exports, "BasePoolFac", { enumerable: true, get: function () { return BasePoolFac_1.default; } });
 // core
-var itachi_core_1 = require("@dt/itachi_core"); // 为了保持 ConfigFac init 和 get 时的版本一致性
+var itachi_core_1 = require("itachi_core"); // 为了保持 ConfigFac init 和 get 时的版本一致性
 Object.defineProperty(exports, "ConfigFac", { enumerable: true, get: function () { return itachi_core_1.ConfigFac; } });
 // cdt
 __exportStar(require("./dao/query/cdt/imp"), exports);

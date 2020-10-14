@@ -1,4 +1,4 @@
-import {ArrayUtil} from '@dt/itachi_core'
+import {ArrayUtil} from 'itachi_core'
 import Hat from './Hat'
 import BaseCdt from '../../dao/query/cdt/BaseCdt'
 import { Query } from '../../orm';

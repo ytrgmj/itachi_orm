@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
     sum(xx) as yy,
     distinct yy
 */
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 var havingOpers = [
     '>=',
     '<=',

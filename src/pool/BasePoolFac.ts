@@ -8,7 +8,7 @@
  */
 
 import {  BaseOption } from './poolOptions'
-import {  ConfigFac } from '@dt/itachi_core'
+import {  ConfigFac } from 'itachi_core'
 const configKey = 'datasources';
 export default abstract class BasePoolFac {
 

@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const BaseHat_1 = __importDefault(require("../BaseHat"));
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 /**
  * 跨表/接口 查询类
  * _filterList(list) //过滤条件

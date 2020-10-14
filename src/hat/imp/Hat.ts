@@ -1,5 +1,5 @@
 import BaseHat from "../BaseHat";
-import { ArrayUtil } from "@dt/itachi_core";
+import { ArrayUtil } from "itachi_core";
 import { Searcher, Dao } from "../../orm";
 
 /**
